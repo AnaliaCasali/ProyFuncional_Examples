@@ -24,6 +24,11 @@ public class _Optional {
                 (p)-> System.out.println(p),
                 ()-> System.out.println("no especificado")
         );
+        // si  tiene valor no nulo puedo mostrar
+        msg.ifPresent(System.out::println);
+
+        //si es nulo le asigna otro valor
+         msg.orElse("No tiene cargado dato");
 
     }
 
