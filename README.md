@@ -1,0 +1,1 @@
+Examples java.util.Function
